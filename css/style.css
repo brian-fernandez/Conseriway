@@ -3,7 +3,7 @@
     --primary: #3CB815;
     --secondary: #F65005;
     --light: #F7F8FC;
-    --dark: #111111;
+    --dark: #3CB815;
 }
 
 .back-to-top {
@@ -105,7 +105,7 @@
 
 .navbar .navbar-nav .nav-link {
     padding: 25px 15px;
-    color: #555555;
+    color: #ffffff;
     font-weight: 500;
     outline: none;
 }
@@ -124,6 +124,7 @@
 
     .navbar .navbar-nav .nav-link {
         padding: 10px 0;
+         color: black;
     }
 }
 
@@ -381,4 +382,10 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
+}
+
+
+.filtros
+{
+    filter: brightness(0.5);
 }

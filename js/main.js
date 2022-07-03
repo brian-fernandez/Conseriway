@@ -20,15 +20,20 @@
     $(window).scroll(function () {
         if ($(window).width() < 992) {
             if ($(this).scrollTop() > 45) {
-                $('.fixed-top').addClass('bg-white shadow');
+                $('.fixed-top').addClass('bg-dark shadow');
+                $('.titulo').addClass('text-light shadow');
             } else {
-                $('.fixed-top').removeClass('bg-white shadow');
+                $('.fixed-top').removeClass('bg-dark shadow');
             }
         } else {
             if ($(this).scrollTop() > 45) {
-                $('.fixed-top').addClass('bg-white shadow').css('top', -45);
+                $('.fixed-top').addClass('bg-dark shadow').css('top', -45);
+                $('.titulo').addClass('text-light shadow');
+                $('.titulo').removeClass('text-dark ');
+                
             } else {
-                $('.fixed-top').removeClass('bg-white shadow').css('top', 0);
+                $('.fixed-top').removeClass('bg-dark shadow').css('top', 0);
+                $('.titulo').removeClass('text-light shadow');
             }
         }
     });
