@@ -22,8 +22,10 @@
             if ($(this).scrollTop() > 45) {
                 $('.fixed-top').addClass('bg-dark shadow');
                 $('.titulo').addClass('text-light shadow');
+                $('.titulo').removeClass('text-dark shadow');
             } else {
                 $('.fixed-top').removeClass('bg-dark shadow');
+                $('.titulo').addClass('text-dark shadow');
             }
         } else {
             if ($(this).scrollTop() > 45) {
