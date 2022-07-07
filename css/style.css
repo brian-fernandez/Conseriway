@@ -397,7 +397,11 @@
 }
 
 
-
+.vid
+{
+    height: 100vh;
+    object-fit: cover;
+}
 
 
 
@@ -407,6 +411,6 @@
 {
     #header-carousel .carousel-item{
         height: 100vh !important;
-        object-fit: cover;
+        object-fit: cover !important;
     }
 }
