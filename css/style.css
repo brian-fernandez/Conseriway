@@ -389,3 +389,24 @@
 {
     filter: brightness(0.5);
 }
+
+
+#header-carousel
+{
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px)
+{
+    #header-carousel .carousel-item{
+        height: 100vh !important;
+        object-fit: cover;
+    }
+}
