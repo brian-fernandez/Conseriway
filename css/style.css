@@ -404,7 +404,9 @@
 }
 
 
-
+.color-verde{
+    color: var(--primary);
+}
 
 
 @media (max-width: 768px)
